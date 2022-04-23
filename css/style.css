@@ -68,6 +68,18 @@ body {
   width: 872px;
 }
 
+.article_lead:last-child {
+  margin: 0;
+}
+
+.article_section_1:last-child {
+  margin: 0;
+}
+
+.article_section_1 {
+  margin-bottom: 40px;
+}
+
 .article_section {
   border-radius: 20px;
   padding: 30px;
@@ -120,4 +132,8 @@ body {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+}
+
+.article_pic:last-child {
+  margin: 0;
 }
