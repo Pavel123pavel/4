@@ -18,10 +18,6 @@ img {
 }
 
 body {
-  font-family: 'font', sans-serif;
-}
-
-.index_page {
   font-family: Arial, Verdana, sans-serif;
 }
 
@@ -90,6 +86,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+  color: #333;
 }
 
 .article_lead:last-child {
@@ -97,12 +94,12 @@ body {
 }
 
 .article_desc {
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 50px 95px;
   width: 100%;
   font-weight: 700;
   font-size: 30px;
-  color: #ffffff;
+  color: #fff;
   background-color: #3f2aff;
 }
 
@@ -160,6 +157,7 @@ body {
 
 .article_desc1 {
   border: 1px solid #b6b6b6;
+  border-top: none;
   padding: 19px;
   font-weight: 400;
   font-size: 14px;
